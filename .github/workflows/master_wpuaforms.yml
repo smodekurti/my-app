@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'wpuaforms'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D53C84A110E45DF85F76BD71AD77572 }}
-          package: .
+          package: ./dist/my-app
