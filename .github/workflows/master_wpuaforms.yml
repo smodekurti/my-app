@@ -51,5 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'wpuaforms'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D53C84A110E45DF85F76BD71AD77572 }}
+          publish-profile: $
           package: ./dist/my-app
